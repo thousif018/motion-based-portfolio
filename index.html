@@ -1,0 +1,813 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thousif Hakkim — AI-Assisted Digital Professional &amp; Engineering Graduate</title>
+  <meta name="description" content="Portfolio of Thousif Hakkim — AI-Assisted Digital Professional and Electrical &amp; Electronics Engineering graduate working across AI workflows, QA testing, e-commerce, and data systems.">
+  <meta name="theme-color" content="#080607">
+  
+  <!-- Flag JS availability before first paint (no-JS users get the composed, static hero). -->
+  <script>document.documentElement.classList.replace('no-js', 'js')</script>
+
+  <link rel="preload" as="image" href="assets/hero_portrait_transparent.png" fetchpriority="high">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wdth,wght@100..125,500..700&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,700&family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,600&family=Pinyon+Script&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=21">
+</head>
+<body>
+
+  <!--
+    Layer architecture:
+    01 black base (body) · 02 red/wine atmosphere · 03 ambient light/vignette
+    04 portrait (+ 05 eye highlight inside) · 06 header · 07 typography
+    08 notification · 09 interactive cursor light
+  -->
+  <main>
+  
+  <!-- ==========================================================
+       SECTION 01 · HERO (EXACT REFERENCE CHOREOGRAPHY ENGINE)
+       ========================================================== -->
+  <section class="hero" id="top">
+
+    <!-- L02/03 · Atmosphere (parallax wrapper > animated layers) -->
+    <div class="atmo-parallax" aria-hidden="true">
+      <div class="layer-atmosphere fx fx-atmo">
+        <div class="atmo-wash"></div>
+        <div class="atmo-core"></div>
+        <div class="atmo-floor"></div>
+        <div class="atmo-vignette"></div>
+      </div>
+    </div>
+
+    <!-- L04/05 · Portrait (Thousif's Transparent Cutout with Light Sweep & Glint) -->
+    <div class="portrait-parallax">
+      <div class="portrait-frame">
+        <div class="portrait-stage fx fx-portrait">
+          <img class="portrait-img" src="assets/hero_portrait_transparent.png" width="768" height="1024"
+               alt="Portrait of Thousif Hakkim, AI-Assisted Digital Professional" decoding="async">
+          <div class="portrait-veil fx-veil" aria-hidden="true"></div>
+          <div class="portrait-sweep fx-sweep" aria-hidden="true"></div>
+          <div class="eye-flash eye-flash--right fx-flash" aria-hidden="true"></div>
+          <div class="eye-flash fx-flash" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Film grain (static, near-invisible) -->
+    <div class="layer-grain" aria-hidden="true"></div>
+
+    <!-- Legibility scrim behind the notification zone -->
+    <div class="scrim-bottom" aria-hidden="true"></div>
+
+    <!-- L07 · Hero typography -->
+    <div class="hero-copy">
+      <h1 class="headline fx fx-headline" data-slot="headline">Thousif</h1>
+      <div class="role-block">
+        <p class="role">
+          <span class="role-line fx fx-role-1" data-slot="role-1">AI-Assisted</span>
+          <span class="role-line fx fx-role-2" data-slot="role-2">Digital Professional</span>
+        </p>
+        <ul class="hero-meta fx fx-meta" data-slot="meta">
+          <li>QA &amp; Testing</li>
+          <li>E-Commerce</li>
+          <li>Data Systems</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- L08 · Notification (Thousif's Status Card) -->
+    <aside class="notification fx fx-notif" aria-label="Notification">
+      <button class="notif-close" type="button" aria-label="Dismiss notification">
+        <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+          <path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/>
+        </svg>
+      </button>
+      <div class="notif-card">
+        <span class="notif-avatar" aria-hidden="true">
+          <img class="notif-memoji" src="assets/memoji-avatar.png" alt="">
+          <span class="notif-badge">
+            <svg viewBox="0 0 12 8" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3.4 1 1 4l2.4 3M8.6 1 11 4 8.6 7"/>
+            </svg>
+          </span>
+        </span>
+        <div class="notif-body">
+          <div class="notif-top">
+            <span class="notif-name" data-slot="notif-name">Thousif Hakkim</span>
+            <span class="notif-time" data-slot="notif-time">now</span>
+          </div>
+          <p class="notif-msg">
+            <strong data-slot="notif-lead">AI-Assisted</strong>
+            <span data-slot="notif-message">digital professional &amp; engineering graduate — building data-verified digital solutions.</span>
+          </p>
+        </div>
+      </div>
+    </aside>
+
+    <!-- L06 · Header (Global Nav Pill with Luxury Brand Mark) -->
+    <header class="site-header">
+      <div class="header-pill fx fx-header">
+        <a class="brand" href="#top" aria-label="Thousif Hakkim — home">
+          <svg class="brand-mark" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 4.5 4.5 12l7.5 7.5"/>
+            <path d="M32 4.5 39.5 12 32 19.5"/>
+            <path d="M25.5 3.5 18.5 20.5"/>
+          </svg>
+          <span class="brand-dot" aria-hidden="true"></span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a class="nav-link is-active" href="#work" aria-current="page" data-slot="nav-0"><span class="nav-dot" aria-hidden="true"></span>Work</a></li>
+            <li><a class="nav-link" href="#section-03" data-slot="nav-1">About</a></li>
+            <li><a class="nav-link" href="#projects" data-slot="nav-2">Projects</a></li>
+            <li><a class="nav-link" href="#method" data-slot="nav-3">Method</a></li>
+            <li><a class="nav-link" href="#resume" data-slot="nav-4">Resume</a></li>
+            <li><a class="nav-link" href="#contact" data-slot="nav-5">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="cta" href="#contact">
+            <span data-slot="cta">Connect ✦</span>
+            <svg class="cta-arrow" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M3.2 10.8 10.8 3.2M5 3.2h5.8V9"/>
+            </svg>
+          </a>
+          <button class="theme-btn" type="button" aria-label="Feedback pulse">
+            <svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true">
+              <circle cx="10" cy="10" r="3.3"/>
+              <path d="M10 1.6v2.1M10 16.3v2.1M1.6 10h2.1M16.3 10h2.1M4.1 4.1l1.5 1.5M14.4 14.4l1.5 1.5M15.9 4.1l-1.5 1.5M5.6 14.4l-1.5 1.5"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- L09 · Interactive cursor light -->
+    <div class="cursor-light" aria-hidden="true"></div>
+
+  </section>
+
+  <!-- ==========================================================
+       SECTION 02 · PINNED TYPOGRAPHY CHAPTER & PUZZLE TRANSITION
+       Scroll-scrubbed, pinned editorial composition with:
+         Phase A: Typography rises through masks, labels pop out
+         Phase B: PUZZLE TRANSITION into Section 03 (About Me)
+       ========================================================== -->
+  <section class="s2-pin" id="work" aria-label="Where code meets creative thinking">
+    <div class="s2-stage">
+
+      <div class="s2-comp">
+        <p class="s2-brand s2-meta">
+          <span class="s2-brand-my">AI</span><span class="s2-brand-creative">&amp;Digital</span><span class="s2-brand-hunch">Systems</span>
+        </p>
+
+        <div class="s2-side s2-side--left s2-meta">
+          <p><span>AI Context</span> <strong data-slot="s2-side-l1">Architecture</strong></p>
+          <p><span>Data into</span> <strong><em data-slot="s2-side-l2">Solutions.</em></strong></p>
+        </div>
+
+        <div class="s2-side s2-side--right s2-meta">
+          <p><span>Rigorous</span> <strong data-slot="s2-side-r1">QA Testing.</strong></p>
+          <p><span>Verified</span> <strong data-slot="s2-side-r2">Systems.</strong></p>
+        </div>
+
+        <h2 class="s2-title">
+          <span class="s2-mask s2-mask-1"><span class="s2-line s2-line-1"><span class="s2-where">Where</span></span></span>
+          <span class="s2-mask s2-mask-2"><span class="s2-line s2-line-2"><span class="s2-code">Code</span><span class="s2-meets">Meets</span></span></span>
+          <span class="s2-mask s2-mask-3"><span class="s2-line s2-line-3"><span class="s2-creative">Creative</span><span class="s2-thinking">Thinking</span></span></span>
+        </h2>
+
+        <ul class="s2-labels" aria-label="Focus areas">
+          <li class="s2-label-pos s2-pos-ai"><span class="s2-label s2-label--ai">AI.</span></li>
+          <li class="s2-label-pos s2-pos-sys"><span class="s2-label s2-label--sys">QA.</span></li>
+          <li class="s2-label-pos s2-pos-web"><span class="s2-label s2-label--web">SYSTEMS.</span></li>
+          <li class="s2-label-pos s2-pos-api"><span class="s2-label s2-label--api">E-COMM.</span></li>
+          <li class="s2-label-pos s2-pos-auto"><span class="s2-label s2-label--auto">DATA.</span></li>
+        </ul>
+      </div>
+
+      <div class="s2-rail s2-rail--left s2-meta" aria-hidden="true">
+        <span class="s2-rail-dot"></span>
+        <ul class="s2-rail-list">
+          <li>Discover</li><li>Prompt</li><li>Test</li><li>Structure</li><li>Deliver</li>
+        </ul>
+        <span class="s2-rail-line s2-rail-line--a"></span>
+        <span class="s2-rail-line s2-rail-line--b"></span>
+      </div>
+
+      <div class="s2-rail s2-rail--right s2-meta" aria-hidden="true">
+        <span class="s2-rail-dot"></span>
+        <ul class="s2-rail-list">
+          <li>Discover</li><li>Prompt</li><li>Test</li><li>Structure</li><li>Deliver</li>
+        </ul>
+        <span class="s2-rail-line s2-rail-line--a"></span>
+        <span class="s2-rail-line s2-rail-line--b"></span>
+      </div>
+
+      <!-- ------------------------------------------------------
+           SECTION 02 → 03 · PUZZLE TRANSITION LAYERS
+           Clones .s2-comp at runtime into clipped tile fragments.
+           Scroll-scrubbed and fully reversible!
+           ------------------------------------------------------ -->
+      <div class="s3-atmo" aria-hidden="true">
+        <p class="s3-credit s3-credit--l">Thousif Hakkim Studio</p>
+        <p class="s3-credit s3-credit--r">&copy; 2026 Thousif Hakkim</p>
+      </div>
+
+      <!-- ------------------------------------------------------
+           SECTION 03 · ABOUT ME (EMERGES FROM PUZZLE PIECES)
+           Locked & interactive once scroll-scrub completes.
+           Three doors: Who I Am, What I Do, How I Think.
+           "What I Do" door is the entrance to Selected Works!
+           ------------------------------------------------------ -->
+      <div class="p3" id="section-03">
+        <div class="p3-dim" aria-hidden="true">
+          <span>Functional &amp; Beautiful</span>
+          <span>Designs for Startups</span>
+          <span class="p3-dim-3">Ready to Scale</span>
+        </div>
+
+        <p class="p3-corner p3-corner--l">Transforming <b>Visions</b> to Reality</p>
+        <p class="p3-corner p3-corner--r">thousifhakkim@gmail.com</p>
+
+        <!-- About Me composition: oversized title, three doors, footer meta -->
+        <div class="ab-comp">
+          <span class="ab-title-mask">
+            <h2 class="ab-title"><span class="ab-title-main">About</span><span class="ab-title-script">Me</span></h2>
+          </span>
+
+          <div class="ab-boxes">
+            <!-- Door 01: Who I Am -->
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--who" type="button" data-ab="who" aria-expanded="false">
+                <span class="ab-box-in">
+                  <span class="ab-num">01</span>
+                  <span class="ab-kicker">( Identity )</span>
+                  <img class="ab-img" src="assets/about-motorcycle.jpg?v=2" alt="" loading="lazy" decoding="async">
+                  <span class="ab-box-title" data-slot="ab-who-title">Who<br>I Am</span>
+                  <span class="ab-line"></span>
+                  <span class="ab-sub" data-slot="ab-who-sub">Thousif Hakkim — AI-assisted digital professional.</span>
+                  <span class="ab-arrow"><svg viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 6h15M11 1l5 5-5 5"/></svg></span>
+                </span>
+              </button>
+            </div>
+
+            <!-- Door 02: What I Do (ENTRANCE TO SELECTED WORKS!) -->
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--what" type="button" data-ab="what" aria-expanded="false">
+                <span class="ab-box-in">
+                  <span class="ab-num">02</span>
+                  <span class="ab-kicker">( Craft )</span>
+                  <img class="ab-img ab-img--air" src="assets/aircraft.jpg" alt="" loading="lazy" decoding="async">
+                  <span class="ab-box-title" data-slot="ab-what-title">What<br>I Do</span>
+                  <span class="ab-line"></span>
+                  <span class="ab-sub" data-slot="ab-what-sub">QA Testing · E-Commerce · AI Workflows</span>
+                  <span class="ab-arrow"><svg viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 6h15M11 1l5 5-5 5"/></svg></span>
+                </span>
+              </button>
+            </div>
+
+            <!-- Door 03: How I Think -->
+            <div class="ab-box-pos">
+              <button class="ab-box ab-box--think" type="button" data-ab="think" aria-expanded="false">
+                <span class="ab-box-in">
+                  <span class="ab-num">03</span>
+                  <span class="ab-kicker">( Approach )</span>
+                  <img class="ab-img" src="assets/portrait.jpg" alt="" loading="lazy" decoding="async">
+                  <span class="ab-box-title" data-slot="ab-think-title">How<br>I Think</span>
+                  <span class="ab-line"></span>
+                  <span class="ab-sub" data-slot="ab-think-sub">Discover · Prompt · Test · Structure · Deliver</span>
+                  <span class="ab-arrow"><svg viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1 6h15M11 1l5 5-5 5"/></svg></span>
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <div class="ab-foot">
+            <span>( 03 &middot; About )</span>
+            <span>QA &middot; E-Commerce &middot; Data</span>
+          </div>
+        </div>
+
+        <!-- Expanded state: clicked door opens into this layer -->
+        <div class="ab-detail" role="region" aria-label="About details">
+          <button class="ab-close" type="button" aria-label="Close">
+            <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+          </button>
+
+          <div class="ab-view" data-ab="who">
+            <div class="ab-view-copy">
+              <p class="ab-eyebrow" data-slot="ab-who-eyebrow">01 &mdash; Who I Am</p>
+              <h3 class="ab-head" data-slot="ab-who-head">Thousif Hakkim</h3>
+              <p class="ab-text" data-slot="ab-who-text">Electrical &amp; Electronics Engineering graduate (NIET Coimbatore, 2026) working across AI workflows, QA testing, e-commerce, and data research.</p>
+              <ul class="ab-tags"><li>QA Testing</li><li>AI Workflows</li><li>B.E. EEE 2026</li></ul>
+            </div>
+            <div class="ab-view-media"><img src="assets/about-motorcycle.jpg?v=2" alt="Thousif sitting on his motorcycle" loading="lazy" decoding="async"></div>
+          </div>
+
+          <!-- Door 02 triggers Selected Works -->
+
+          <div class="ab-view" data-ab="think">
+            <div class="ab-view-copy">
+              <p class="ab-eyebrow" data-slot="ab-think-eyebrow">03 &mdash; How I Think</p>
+              <h3 class="ab-head ab-head--quote">&ldquo;A thoughtful process for meaningful results.&rdquo;</h3>
+              <p class="ab-attr">&mdash; Engineering Principle</p>
+              <p class="ab-text" data-slot="ab-think-text">Discover &middot; Define &amp; Prompt &middot; Analyze &amp; Test &middot; Structure &middot; Deliver.</p>
+            </div>
+            <div class="ab-view-media"><img src="assets/velvet_rose.jpg" alt="Velvet Rose" loading="lazy" decoding="async"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="s3-window" aria-hidden="true">
+        <div class="s3-ghost"></div>
+        <div class="s3-frags"></div>
+        <div class="s3-cluster"></div>
+        <div class="s3-window-frame"></div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 05 · BIG ROBOT — 3D SPLINE SCENE + SCROLL-DRIVEN PANELS
+       3D robot head follows pointer yaw/pitch with damping.
+       Scroll flies glass idea panels out of the depth and past camera.
+       ========================================================== -->
+  <section class="rb" id="think" aria-label="How I think about technology">
+    <div class="rb-pin">
+      <div class="rb-stage-wrap">
+        <div class="rb-env" aria-hidden="true">
+          <span class="rb-glow"></span>
+          <span class="rb-grid"></span>
+          <span class="rb-vignette"></span>
+        </div>
+
+        <p class="rb-tag rb-tag--l" data-slot="rb-label-l">Engineering Graduate · NIET 2026</p>
+        <p class="rb-tag rb-tag--r" data-slot="rb-label-r">AI Workflows · Software Testing</p>
+
+        <div class="rb-space">
+          <div class="rb-stage">
+            <canvas class="rb-canvas" aria-hidden="true"></canvas>
+          </div>
+          <div class="rb-panels"><!-- panels injected from content.js --></div>
+        </div>
+
+        <div class="rb-center">
+          <p class="rb-eyebrow" data-slot="rb-eyebrow">( 05 &middot; The Mind )</p>
+          <h2 class="rb-title">
+            <span data-slot="rb-title-1">I engineer digital systems that</span>
+            <span data-slot="rb-title-2">are verified, structured &amp; reliable.</span>
+          </h2>
+          <p class="rb-sub" data-slot="rb-sub"></p>
+          <p class="rb-hint">
+            <span data-slot="rb-hint">Scroll to move through the ideas.</span>
+            <span class="rb-hint-arrow" aria-hidden="true">&darr;</span>
+          </p>
+        </div>
+
+        <span class="rb-depth" aria-hidden="true"></span>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 06 · EDITORIAL / SKILLS — SCROLL-CHOREOGRAPHED
+       Left: Statement arrives from left behind line masks.
+       Right: Skills reel drifts one item at a time from right.
+       All scrubbed and reversible.
+       ========================================================== -->
+  <section class="ed" id="method" aria-label="Code is my medium">
+    <div class="ed-pin">
+      <div class="ed-stage">
+        <div class="ed-env" aria-hidden="true"><span class="ed-glow"></span></div>
+
+        <div class="ed-grid">
+          <div class="ed-left">
+            <p class="ed-eyebrow" data-slot="ed-eyebrow">( 06 &middot; The Method )</p>
+            <h2 class="ed-statement">
+              <span class="ed-mask"><span class="ed-line" data-slot="ed-line-1">Engineering is my foundation.</span></span>
+              <span class="ed-mask"><span class="ed-line" data-slot="ed-line-2">AI &amp; QA are my instruments.</span></span>
+            </h2>
+            <p class="ed-note" data-slot="ed-note"></p>
+          </div>
+
+          <div class="ed-right">
+            <p class="ed-skills-title" data-slot="ed-skills-title">Tools &amp; Stack</p>
+            <div class="ed-reel"><div class="ed-reel-in" data-slot="ed-reel"><!-- built from content.js --></div></div>
+          </div>
+        </div>
+
+        <span class="ed-progress" aria-hidden="true"></span>
+      </div>
+    </div>
+
+    <!-- Calm tail after choreography finishes -->
+    <div class="ed-tail">
+      <div class="ed-tail-in">
+        <div class="ed-mindset">
+          <p class="ed-mindset-title" data-slot="ed-mindset-title">Discover &rarr; Prompt &rarr; Test &rarr; Structure &rarr; Deliver</p>
+          <ul class="ed-mindset-lines" data-slot="ed-mindset-lines"></ul>
+        </div>
+
+        <div class="ed-exploring">
+          <p class="ed-block-title" data-slot="ed-exploring-title">Currently Exploring</p>
+          <ul class="ed-explore-list" data-slot="ed-exploring-items"></ul>
+        </div>
+
+        <div class="ed-end">
+          <h3 class="ed-end-title" data-slot="ed-end-lines"></h3>
+          <p class="ed-end-note" data-slot="ed-end-note"></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 07 · SMALL ROBOT — MINIMALIST CHAPTER
+       Small 3D robot watches the pointer with gentle damping.
+       ========================================================== -->
+  <section class="sr" id="curious" aria-label="Still curious">
+    <div class="sr-env" aria-hidden="true">
+      <span class="sr-glow"></span>
+      <span class="sr-vignette"></span>
+    </div>
+
+    <div class="sr-inner">
+      <div class="sr-copy">
+        <p class="sr-eyebrow" data-slot="sr-eyebrow">( 06 &middot; Continuous Curiosity )</p>
+        <h2 class="sr-title">
+          <span data-slot="sr-title-1">Always exploring</span>
+          <span data-slot="sr-title-2">reliable technology.</span>
+        </h2>
+        <p class="sr-sub" data-slot="sr-sub"></p>
+        <p class="sr-note"><span data-slot="sr-note">Move your cursor &middot; it follows</span></p>
+      </div>
+
+      <div class="sr-stage">
+        <canvas class="sr-canvas" aria-hidden="true"></canvas>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==========================================================
+       SECTION 08 · THOUSIF HAKKIM — VERIFIED RESUME & CREDENTIALS
+       Integrated printable luxury dark CV sheet with clean PDF export.
+       ========================================================== -->
+  <section class="section-resume-editorial" id="resume">
+    <div class="resume-container">
+      
+      <div class="resume-top-bar">
+        <div class="rtb-title-group">
+          <span class="rtb-title">CURRICULUM VITAE &amp; CREDENTIALS</span>
+          <span class="rtb-star">✦</span>
+        </div>
+        <div class="resume-cta-buttons">
+          <button class="pill-btn-outline" onclick="window.print()" title="Print or save as PDF">
+            <span>PRINT / SAVE PDF</span>
+            <span class="btn-sparkle">⎙</span>
+          </button>
+          <a href="mailto:thousifhakkim@gmail.com" class="pill-btn-gold">
+            <span>GET IN TOUCH</span>
+            <span class="btn-sparkle">✉</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Luxury Dark CV Canvas Sheet -->
+      <div class="luxury-resume-canvas" id="printableResume">
+        
+        <!-- Canvas Top Strip -->
+        <div class="lrc-header">
+          <div class="lrc-identity">
+            <div class="lrc-monogram">TH</div>
+            <div class="lrc-name-block">
+              <h3 class="lrc-fullname">THOUSIF HAKKIM</h3>
+              <span class="lrc-designation">AI-Assisted Digital Professional</span>
+            </div>
+          </div>
+
+          <div class="lrc-contact-pills">
+            <a href="https://wa.me/918438886818?text=Hi%20Thousif,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener" class="lrc-pill lrc-pill--wa">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.677.15-.2.301-.777.979-.953 1.18-.175.201-.351.226-.652.075-1.928-.966-3.193-1.745-4.464-3.926-.337-.58.337-.538.966-1.796.1-.2.05-.376-.025-.527s-.677-1.631-.928-2.233c-.244-.587-.492-.507-.677-.516l-.577-.01c-.2 0-.526.075-.802.376s-1.053 1.028-1.053 2.508 1.078 2.91 1.229 3.111c.15.201 2.122 3.24 5.141 4.544 2.012.868 2.793.896 3.796.746.608-.09 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2c-5.518 0-9.995 4.476-9.995 9.994 0 1.763.459 3.483 1.332 5.002L2 22l5.145-1.35c1.472.802 3.13 1.227 4.895 1.227 5.518 0 9.995-4.476 9.995-9.994 0-5.518-4.477-9.994-9.995-9.994zm0 18.174c-1.503 0-2.977-.405-4.267-1.171l-.306-.182-3.17.832.846-3.09-.199-.317a8.146 8.146 0 0 1-1.251-4.442c0-4.508 3.668-8.176 8.177-8.176 4.509 0 8.177 3.668 8.177 8.176 0 4.509-3.668 8.174-8.177 8.174z"/></svg>
+              <span>WhatsApp: +91 84388 86818</span>
+            </a>
+            <a href="tel:+918438886818" class="lrc-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+91 8438886818</span>
+            </a>
+            <a href="mailto:thousifhakkim@gmail.com" class="lrc-pill">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>thousifhakkim@gmail.com</span>
+            </a>
+            <a href="https://linkedin.com/in/thousif-hakkim" target="_blank" rel="noopener" class="lrc-pill">
+              <span>LinkedIn ↗</span>
+            </a>
+            <a href="https://github.com/thousif018" target="_blank" rel="noopener" class="lrc-pill">
+              <span>GitHub ↗</span>
+            </a>
+            <span class="lrc-pill static">
+              <span>Coimbatore, India</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Summary Box -->
+        <div class="lrc-summary-callout">
+          <span class="lrc-sec-label">SUMMARY</span>
+          <p class="lrc-summary-text">
+            Electrical &amp; Electronics Engineering graduate (NIET Coimbatore, 2026) working across AI-assisted research, digital marketing, e-commerce, website QA, and data verification. I use AI to research, create, analyze, test, structure, and build digital solutions.
+          </p>
+        </div>
+
+        <!-- Two-Column Grid Body -->
+        <div class="lrc-grid-body">
+          
+          <!-- Main Experience & Projects -->
+          <div class="lrc-col-main">
+            
+            <div class="lrc-section">
+              <div class="lrc-sec-heading">
+                <span>EXPERIENCE</span>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">Website QA &amp; Software Testing</h4>
+                  <span class="lrc-org-badge">C99</span>
+                </div>
+                <ul class="lrc-bullets">
+                  <li>Manually tested the platform with 65+ structured functional and regression test cases</li>
+                  <li>Tested vendor registration, profiles, booking and cancellation, search/filter, and form validation</li>
+                  <li>Logged every bug in a structured Excel test sheet with reproduction steps and severity levels</li>
+                </ul>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">International Marketplace Research</h4>
+                  <span class="lrc-org-badge">ACTIF</span>
+                </div>
+                <ul class="lrc-bullets">
+                  <li>Researched international B2B and B2C marketplaces and assessed seller suitability</li>
+                  <li>Compiled structured dossiers on European and international market expansion feasibility</li>
+                </ul>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">Wholesale &amp; Retail Product Catalogue</h4>
+                  <span class="lrc-org-badge">ACTIF</span>
+                </div>
+                <ul class="lrc-bullets">
+                  <li>Built wholesale and retail marketplace catalogues with structured product data</li>
+                  <li>Used AI-assisted workflows to organize, clean, and present high-density SKUs</li>
+                </ul>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">Verified Commercial Database</h4>
+                  <span class="lrc-org-badge">DATA RESEARCH</span>
+                </div>
+                <ul class="lrc-bullets">
+                  <li>Collected, cleaned, and verified business records, de-duplicating commercial data</li>
+                  <li>Delivered a structured dataset of approximately 330 verified commercial records</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Academic & Concept Projects -->
+            <div class="lrc-section">
+              <div class="lrc-sec-heading">
+                <span>ACADEMIC &amp; ENGINEERING PROJECTS</span>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">Solar-Powered DC Motor Grass-Cutting Machine</h4>
+                  <span class="lrc-org-badge">GRADE A+</span>
+                </div>
+                <p class="lrc-entry-desc">
+                  Engineering powertrain project utilizing solar photovoltaic generation, direct current powertrain, and sustainable mechanical cutting mechanisms.
+                </p>
+              </div>
+
+              <div class="lrc-entry">
+                <div class="lrc-entry-head">
+                  <h4 class="lrc-entry-title">AI-Assisted App Development (Fitness &amp; PropTech)</h4>
+                  <span class="lrc-org-badge">AI ARCHITECTURE</span>
+                </div>
+                <p class="lrc-entry-desc">
+                  Fitness tracker and real-estate platform concepts directed with Claude, Codex, and Antigravity through idea, architecture, design, and code.
+                </p>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right Sidebar: Education & Skills -->
+          <div class="lrc-col-side">
+            
+            <div class="lrc-sidebar-box">
+              <span class="lrc-box-label">EDUCATION</span>
+              <h4 class="lrc-box-title">NIET, Coimbatore</h4>
+              <div class="lrc-box-sub">Nehru Institute of Engineering &amp; Technology</div>
+              <div class="lrc-box-degree">Electrical &amp; Electronics Engineering</div>
+              <div class="lrc-box-year">2026 · CGPA 6.9</div>
+            </div>
+
+            <div class="lrc-sidebar-box">
+              <span class="lrc-box-label">SKILLS DIRECTORY</span>
+              
+              <div class="lrc-skill-category">
+                <span class="lsc-title">AI &amp; PROMPT ENGINEERING</span>
+                <div class="lsc-tags">
+                  <span class="lsc-tag">Prompt Engineering</span>
+                  <span class="lsc-tag">AI Context Architecture</span>
+                  <span class="lsc-tag">Claude AI</span>
+                  <span class="lsc-tag">OpenAI Codex</span>
+                  <span class="lsc-tag">Antigravity</span>
+                </div>
+              </div>
+
+              <div class="lrc-skill-category">
+                <span class="lsc-title">QA &amp; TESTING</span>
+                <div class="lsc-tags">
+                  <span class="lsc-tag">Functional Testing</span>
+                  <span class="lsc-tag">Regression Suites</span>
+                  <span class="lsc-tag">Test Case Design</span>
+                  <span class="lsc-tag">Excel Bug Sheets</span>
+                </div>
+              </div>
+
+              <div class="lrc-skill-category">
+                <span class="lsc-title">DATA &amp; E-COMMERCE</span>
+                <div class="lsc-tags">
+                  <span class="lsc-tag">Data Verification</span>
+                  <span class="lsc-tag">Market Research</span>
+                  <span class="lsc-tag">Product Catalogues</span>
+                  <span class="lsc-tag">UI/UX Design</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ==========================================================
+       SECTION 04 · MY SELECTED WORKS — HIDDEN IMMERSIVE 3D CHAPTER
+       Opened only by "What I Do" door or nav "Projects" via black flash.
+       Internal scroller dollies a 3D camera through full-screen
+       project stages with depth, rotation, and ghost indices!
+       ========================================================== -->
+  <div class="wk" id="projects" aria-hidden="true">
+    <div class="wk-void" aria-hidden="true">
+      <div class="wk-dim">
+        <span>Functional &amp; Beautiful</span>
+        <span>Designs for Startups</span>
+        <span class="wk-dim-3">Ready to Scale</span>
+      </div>
+      <p class="wk-corner wk-corner--l">Transforming <b>Visions</b> to Reality</p>
+      <p class="wk-corner wk-corner--r">thousifhakkim@gmail.com</p>
+    </div>
+
+    <div class="wk-scroll">
+      <div class="wk-track">
+        <div class="wk-stage">
+
+          <div class="wk-head" data-enter style="--d:.08s">
+            <span class="wk-brand">
+              <svg class="wk-brand-mark" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 4.5 4.5 12l7.5 7.5"/><path d="M32 4.5 39.5 12 32 19.5"/><path d="M25.5 3.5 18.5 20.5"/>
+              </svg>
+              <b>Thousif Hakkim</b>&nbsp;Studio
+            </span>
+            <button class="wk-back" type="button" aria-label="Back to About">
+              <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+            </button>
+          </div>
+
+          <!-- The 3D world: screens injected dynamically from content.js -->
+          <div class="wk-space"></div>
+
+          <p class="wk-counter" data-enter style="--d:.2s"><b data-wk-idx>01</b> / <span data-wk-total>03</span></p>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Project detail shell (opens case study view) -->
+    <div class="wk-detail" role="region" aria-label="Project detail">
+      <button class="wk-detail-close" type="button" aria-label="Back to works">
+        <svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg>
+      </button>
+      <figure class="wk-detail-media"><img alt="" decoding="async"></figure>
+      <p class="wk-detail-title"></p>
+    </div>
+  </div>
+
+
+  <!-- ==========================================================
+       SECTION 09 · FOOTER — SCROLL-REVEALED CLOSING CHAPTER
+       Statement rises through masks as page reaches the bottom.
+       ========================================================== -->
+  <footer class="ft" id="contact">
+    <div class="ft-env" aria-hidden="true"><span class="ft-glow"></span></div>
+
+    <div class="ft-in">
+      <p class="ft-eyebrow" data-slot="ft-eyebrow">( 07 &middot; Contact )</p>
+
+      <h2 class="ft-headline">
+        <span class="ft-mask"><span class="ft-line" data-slot="ft-head-1">Let&rsquo;s build</span></span>
+        <span class="ft-mask"><span class="ft-line" data-slot="ft-head-2">something amazing.</span></span>
+      </h2>
+
+      <p class="ft-line-note" data-slot="ft-line"></p>
+
+      <div class="ft-mid">
+        <div class="ft-actions">
+          <a class="ft-mail" data-slot-href="ft-mail" href="mailto:thousifhakkim@gmail.com">
+            <span class="ft-mail-label" data-slot="ft-mail-label">Direct Inquiry</span>
+            <span class="ft-mail-address" data-slot="ft-mail-address">thousifhakkim@gmail.com</span>
+            <svg class="ft-mail-arrow" viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M1 6h15M11 1l5 5-5 5"/>
+            </svg>
+          </a>
+
+          <a class="ft-whatsapp" data-slot-href="ft-whatsapp" href="https://wa.me/918438886818?text=Hi%20Thousif,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener">
+            <span class="ft-wa-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.677.15-.2.301-.777.979-.953 1.18-.175.201-.351.226-.652.075-1.928-.966-3.193-1.745-4.464-3.926-.337-.58.337-.538.966-1.796.1-.2.05-.376-.025-.527s-.677-1.631-.928-2.233c-.244-.587-.492-.507-.677-.516l-.577-.01c-.2 0-.526.075-.802.376s-1.053 1.028-1.053 2.508 1.078 2.91 1.229 3.111c.15.201 2.122 3.24 5.141 4.544 2.012.868 2.793.896 3.796.746.608-.09 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2c-5.518 0-9.995 4.476-9.995 9.994 0 1.763.459 3.483 1.332 5.002L2 22l5.145-1.35c1.472.802 3.13 1.227 4.895 1.227 5.518 0 9.995-4.476 9.995-9.994 0-5.518-4.477-9.994-9.995-9.994zm0 18.174c-1.503 0-2.977-.405-4.267-1.171l-.306-.182-3.17.832.846-3.09-.199-.317a8.146 8.146 0 0 1-1.251-4.442c0-4.508 3.668-8.176 8.177-8.176 4.509 0 8.177 3.668 8.177 8.176 0 4.509-3.668 8.174-8.177 8.174z"/>
+              </svg>
+            </span>
+            <span class="ft-mail-label" data-slot="ft-wa-label">WhatsApp Direct</span>
+            <span class="ft-mail-address" data-slot="ft-wa-address">+91 84388 86818</span>
+            <svg class="ft-mail-arrow" viewBox="0 0 18 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M1 6h15M11 1l5 5-5 5"/>
+            </svg>
+          </a>
+        </div>
+
+        <nav class="ft-cols" data-slot="ft-cols" aria-label="Footer"></nav>
+      </div>
+
+      <div class="ft-base">
+        <span class="ft-brand">
+          <svg class="ft-mark" viewBox="0 0 44 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 4.5 4.5 12l7.5 7.5"/><path d="M32 4.5 39.5 12 32 19.5"/><path d="M25.5 3.5 18.5 20.5"/>
+          </svg>
+          <b data-slot="ft-legal">&copy; 2026 Thousif Hakkim</b>
+          <i data-slot="ft-note">Built with precision, data verification, and luxury editorial design.</i>
+        </span>
+
+        <button class="ft-top" type="button">
+          <span data-slot="ft-top">Back to top</span>
+          <svg viewBox="0 0 12 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M6 13V2M1.5 6.5 6 2l4.5 4.5"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Quick-Connect Connector at Bottom -->
+  <aside class="wa-float" aria-label="WhatsApp Quick Connect">
+    <a class="wa-float-link" href="https://wa.me/918438886818?text=Hi%20Thousif,%20I%20saw%20your%20portfolio!" target="_blank" rel="noopener" aria-label="Connect with Thousif Hakkim on WhatsApp: +91 84388 86818">
+      <span class="wa-float-radar" aria-hidden="true"></span>
+      <span class="wa-float-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+          <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.677.15-.2.301-.777.979-.953 1.18-.175.201-.351.226-.652.075-1.928-.966-3.193-1.745-4.464-3.926-.337-.58.337-.538.966-1.796.1-.2.05-.376-.025-.527s-.677-1.631-.928-2.233c-.244-.587-.492-.507-.677-.516l-.577-.01c-.2 0-.526.075-.802.376s-1.053 1.028-1.053 2.508 1.078 2.91 1.229 3.111c.15.201 2.122 3.24 5.141 4.544 2.012.868 2.793.896 3.796.746.608-.09 1.78-.727 2.031-1.43.251-.702.251-1.304.175-1.43-.075-.125-.276-.2-.577-.35zM12.04 2c-5.518 0-9.995 4.476-9.995 9.994 0 1.763.459 3.483 1.332 5.002L2 22l5.145-1.35c1.472.802 3.13 1.227 4.895 1.227 5.518 0 9.995-4.476 9.995-9.994 0-5.518-4.477-9.994-9.995-9.994zm0 18.174c-1.503 0-2.977-.405-4.267-1.171l-.306-.182-3.17.832.846-3.09-.199-.317a8.146 8.146 0 0 1-1.251-4.442c0-4.508 3.668-8.176 8.177-8.176 4.509 0 8.177 3.668 8.177 8.176 0 4.509-3.668 8.174-8.177 8.174z"/>
+        </svg>
+      </span>
+      <span class="wa-float-text">
+        <span class="wa-float-hint">WhatsApp</span>
+        <span class="wa-float-val">+91 84388 86818</span>
+      </span>
+    </a>
+  </aside>
+
+  <!-- Cinematic black flash between chapters -->
+  <div class="flash" aria-hidden="true"></div>
+
+  <!-- Content & Motion System Scripts -->
+  <script src="content.js?v=16"></script>
+  <script src="script.js?v=18"></script>
+</body>
+</html>
